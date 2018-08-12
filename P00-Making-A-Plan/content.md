@@ -25,6 +25,7 @@ Because this is going to be mostly just a static webpage, we will have only few 
 - As a user, if I wait 60 second a popup will appear, I can exit this popup by clicking the X.
 - As a user, I can view different testimonials by clicking on the navigation buttons.
 - As a user, I can open and close the tabs on the FAQ section.
+- As a user, if I hover over certain thing, small animations will occur.
 
 With all this in mind we are ready to start!  
 
