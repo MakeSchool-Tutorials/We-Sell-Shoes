@@ -111,7 +111,7 @@ That should get our elements to display inline. Let's add a few more styles to c
 
 Your page should now look something like this:
 
-![navbar with some styles](/images/nav-s.png "navbar with some styles")
+![navbar with some styles](images/nav-s.png "navbar with some styles")
 
 You'll notice that it isn't quite flush with the borders of the browser yet. This is because the <body> tag actually adds a little bit of margin. We can get rid of that with the following styles:
 
