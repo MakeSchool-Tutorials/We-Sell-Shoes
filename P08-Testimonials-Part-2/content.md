@@ -86,8 +86,10 @@ This should cycle us through the all the testimonials on repeat.
 
 By default, we show the testimonial associated with the .prev class. We want to create an event listener that let's us move to the next one. Let's do it step by step.
 
+Put this code at the bottom.
 
 ```js
+
 //middle dot click
 next.addEventListener("click", function() {
 
@@ -112,4 +114,53 @@ next.addEventListener("click", function() {
 
 
 ```
-Because we can click any dot no matter what position we're in, we have to remove the other classes because we add the one that brings us where we need to go. 
+Because we can click any dot no matter what position we're in, we have to remove the other classes because we add the one that brings us where we need to go.
+
+Now we can add the others below:
+
+```js
+//third dot click
+nextNext.addEventListener("click", function() {
+
+
+  if (tests.classList.contains('second')) {
+    tests.classList.remove('second');
+  }
+
+  if (tests.classList.contains('first')) {
+    tests.classList.remove('first')
+  }
+
+  window.clearInterval(nextNextInt);
+  window.clearInterval(nextint);
+  window.clearInterval(prevint);
+  tests.classList.add('third');
+})
+
+//first dot click
+prev.addEventListener("click", function() {
+
+  if (tests.classList.contains('second')) {
+    tests.classList.remove('second');
+  }
+
+  if (tests.classList.contains('third')) {
+    tests.classList.remove('third');
+  }
+
+  window.clearInterval(nextNextInt);
+  window.clearInterval(nextint);
+  window.clearInterval(prevint);
+  tests.classList.add('first');
+})
+
+////////////////// end of testimonial section
+```
+
+Nice, we now have a working and interactive testimonial section.
+
+![testimonial cycle 2](images/cycle2.gif "Testimonial cycle 2")
+
+# Onward
+
+The next session will give us a bit of a break, as we will just be adding in a thid subscribe section.
