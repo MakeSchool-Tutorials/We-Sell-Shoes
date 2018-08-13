@@ -178,7 +178,7 @@ Great! That's how we make a nice FAQ Accordion in vanilla JS.
 
 Let's take a look at what the finished FAQ should look like:
 
-![faq](images/faq.png "faq")  
+![faq](images/faq.gif "faq")  
 
 # Onward
 The next section of our website is going to be the footer!
