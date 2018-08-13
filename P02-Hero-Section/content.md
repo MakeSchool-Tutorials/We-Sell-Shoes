@@ -47,6 +47,8 @@ The height has a calc property, taking in 99vh - 50px. This just means, we want 
 
 We also make use of linnear-gradients to darken the photo a bit. This is so when we add text it will stand out a little better.
 
+You are more than welcome to change the background image as well.
+
 # Adding some text
 We're going to add in a big bold heading that tells the user exactly what our website is about. Lets add this markup!
 
