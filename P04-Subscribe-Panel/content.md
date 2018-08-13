@@ -120,3 +120,8 @@ As always, feel free to experiment with these hover effects to insure a pleasent
 We should now have a page that looks like this:
 
 ![Subscribe form](images/landing.png "subscribe form")  
+
+# Onward
+The next step is creating the gallery. This is one of the most important parts of any shop. Without a gallery our users won't be able to view our products.
+
+We will also introduce CSS Grid in this section so stay tuned.
