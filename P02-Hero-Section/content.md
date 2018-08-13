@@ -45,7 +45,7 @@ HERO
 
 The height has a calc property, taking in 99vh - 50px. This just means, we want it to be 99% of the view height, minus 50 pixels. We do this because we want to show a little bit of the next part so that people will know they should scroll downward.
 
-We also make use of linnear-gradients to darken the photo a bit. This is so when we add text it will stand out a little better.
+We also make use of linear-gradients to darken the photo a bit. This is so when we add text it will stand out a little better.
 
 You are more than welcome to change the background image as well.
 
