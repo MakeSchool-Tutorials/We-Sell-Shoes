@@ -36,13 +36,13 @@ The first thing that we need to do is create a directory for our files.
 From your Terminal, navigate to where you'd like to create a new folder and execute the following command:
 
 ```
-mkdir make-cookies
+mkdir we-sell-shoes
 ```
 
 Navigate into the directory you just created with the command:
 
 ```
-cd make-cookies
+cd we-sell-shoes
 ```
 
 # Create your first file
@@ -105,7 +105,7 @@ Inside of index.html, let's add the following lines of code:
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Make Cookies</title>
+    <title>We Sell Shoes</title>
 
     <!-- Link in our stylesheet -->
     <link re="stylesheet" href="./styles.css">
