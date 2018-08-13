@@ -178,4 +178,4 @@ This is where javascript comes into play.
 We will add our interactive javascript in part two.
 
 # Onward   
-In the next section we will add functional javascript to make our testimonial work.
+In the next section we will add functional javascript to make our testimonials work.
