@@ -9,7 +9,7 @@ On landing pages it's important to repeat things several times, especially actio
 Underneath our gallery, lets add the following:
 
 ```HTML
-<div class="subscribe-2">
+<div class="subscribe subscribe-2">
   <h1>"Nobody has better shoes than them!"</h1>
   <h3>- Turd Ferguson, Shoe Fanatic</h3>
   <div class="sub-fields">

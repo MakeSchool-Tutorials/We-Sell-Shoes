@@ -9,7 +9,7 @@ Let's add in our third subscribe section.
 Underneath our testimonials, lets add the following:
 
 ```HTML
-<div class="subscribe-3">
+<div class="subscribe subscribe-3">
   <h1>"I would kill for these shoes!"</h1>
   <h3>- Genghis Khan, Famous Barbarian</h3>
   <div class="sub-fields">
