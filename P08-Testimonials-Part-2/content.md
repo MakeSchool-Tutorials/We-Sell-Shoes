@@ -163,4 +163,4 @@ Nice, we now have a working and interactive testimonial section.
 
 # Onward
 
-The next session will give us a bit of a break, as we will just be adding in a thid subscribe section.
+The next session will give us a bit of a break, as we will just be adding in a third subscribe section.
