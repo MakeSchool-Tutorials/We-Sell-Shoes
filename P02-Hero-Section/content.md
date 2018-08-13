@@ -29,7 +29,7 @@ Next we will style our Hero div a bit.
   transform: scale(1.1) rotate(3deg);
 }
 
-You already have what's above this line
+Copy everything below this line
 /*******************
 HERO
 *******************/
