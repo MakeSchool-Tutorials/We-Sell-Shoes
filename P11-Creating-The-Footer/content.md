@@ -59,6 +59,7 @@ Footer
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: roboto;
 }
 
 .container {
@@ -118,7 +119,11 @@ h3 {
 
 Awesome. Now we've got a pretty radical footer.
 
-But... we're still not done, there's one final thing we need to do.
+Our website is now mostly done, let's take a quick look again!
+
+![We Sell Shoes](image/shoes.gif "We Sell Shoes")
+
+But we're still not done, there's one final thing we need to do.
 
 # Onward
 
