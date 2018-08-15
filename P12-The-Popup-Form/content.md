@@ -16,15 +16,15 @@ Inside of of navigation menu, let's add the following:
 <!--you already have this-->
 <div class="nav-bar">
   <nav>
-    <div class="nav-links">
-      <a class="nav-btn logo" href="#home"><li><img height="50px" src="https://www.shareicon.net/download/2016/07/31/804695_running_512x512.png"></li></a>
+    <ul class="nav-links">
+      <li><a class="nav-btn logo" href="#home"><img height="50px" src="https://www.shareicon.net/download/2016/07/31/804695_running_512x512.png"></a></li>
 
       <!--add this part-->
-      <a id="sub-btn" class="nav-btn" href="#contact"><li>Subscribe</li></a>
+      <li><a id="sub-btn" class="nav-btn" href="#contact">Subscribe</a></li>
 
       <!--you already have this-->
-      <a class="nav-btn right" href="#cart"><li><img height="40px" src='http://findicons.com/files/icons/1700/2d/512/cart.png'></li></a>
-    </div>
+      <li><a class="nav-btn right" href="#cart"><li><img height="40px" src='http://findicons.com/files/icons/1700/2d/512/cart.png'></a></li>
+    </ul>
   </nav>
 </div>
 ```
