@@ -13,7 +13,9 @@ Underneath our gallery, lets add the following:
   <h1>"Nobody has better shoes than them!"</h1>
   <h3>- Turd Ferguson, Shoe Fanatic</h3>
   <div class="sub-fields">
-    <input class="email-input" placeholder="Your e-mail"><button class="email-sub">Subscribe</button>
+    <form>
+      <input class="email-input" placeholder="Your e-mail"><button class="email-sub">Subscribe</button>
+    </form>
   </div>
 </div>
 
