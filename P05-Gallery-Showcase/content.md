@@ -110,6 +110,8 @@ Move onward with our styles, we will add the following CSS below what we previou
   box-shadow: 1px 2px 6px rgba(0,0,0,.3);
   transition: all 300ms;
   transform-style: preserve-3d;
+  background-size: cover;
+  background-position: center;
 }
 
 
@@ -147,37 +149,27 @@ Move onward with our styles, we will add the following CSS below what we previou
 
 .a {
   background: url('https://images.pexels.com/photos/266840/pexels-photo-266840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: cover;
-  background-position: center;
 }
 
 .b {
   background: url('https://images.pexels.com/photos/812875/pexels-photo-812875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: cover;
-  background-position: center;
 }
 
 .c {
   background: url('https://images.pexels.com/photos/421160/pexels-photo-421160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: cover;
   background-position: -70px;
 }
 
 .d {
   background: url('https://images.pexels.com/photos/112285/pexels-photo-112285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: cover;
-  background-position: center;
 }
 
 .e {
   background: url('https://images.pexels.com/photos/293405/pexels-photo-293405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: cover;
-  background-position: center;
 }
 
 .f {
   background: url('https://images.pexels.com/photos/1994/red-vintage-shoes-sport.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: -40px;
 }
@@ -185,24 +177,19 @@ Move onward with our styles, we will add the following CSS below what we previou
 
 .g {
   background: url('https://images.pexels.com/photos/373964/pexels-photo-373964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: cover;
   background-position: -100px;
 }
 
 .h {
   background: url('https://images.pexels.com/photos/247203/pexels-photo-247203.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: cover;
 }
 
 .i {
   background: url('https://images.pexels.com/photos/40383/shoes-rock-climbing-hiking-walking-40383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: cover;
-  background-position: center;
 }
 
 .j {
   background: url('https://images.pexels.com/photos/116150/pexels-photo-116150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: cover;
   background-position: 0px -60px;
 }
 
