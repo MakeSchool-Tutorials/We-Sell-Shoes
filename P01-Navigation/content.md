@@ -16,8 +16,8 @@ To begin, let's add the following HTML inside of our ```<body>```:
   <div class="nav-bar">
     <nav>
       <ul class="nav-links">
-        <a class="nav-btn logo" href="#home"><li><img height="50px" src="https://www.shareicon.net/download/2016/07/31/804695_running_512x512.png"></li></a>
-        <a class="nav-btn right" href="#cart"><li><img height="40px" src='http://findicons.com/files/icons/1700/2d/512/cart.png'></li></a>
+        <li><a class="nav-btn logo" href="#home"><img height="50px" src="https://www.shareicon.net/download/2016/07/31/804695_running_512x512.png"></a></li>
+        <li><a class="nav-btn right" href="#cart"><img height="40px" src='http://findicons.com/files/icons/1700/2d/512/cart.png'></a></li>
       </ul>
     </nav>
   </div>
