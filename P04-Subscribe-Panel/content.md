@@ -18,7 +18,9 @@ Let's start again by adding in some HTML:
   <h1>Get unique designs in your inbox</h1>
   <h3>Recieve our monthly newsletter with special offers</h3>
   <div class="sub-fields">
-    <input class="email-input" placeholder="Your e-mail"><button class="email-sub">Subscribe</button>
+    <form>
+      <input class="email-input" placeholder="Your e-mail"><button class="email-sub">Subscribe</button>
+    </form>
   </div>
 </div>
 ```
