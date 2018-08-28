@@ -121,7 +121,7 @@ Awesome. Now we've got a pretty radical footer.
 
 Our website is now mostly done, let's take a quick look again!
 
-![We Sell Shoes](image/shoes.gif "We Sell Shoes")
+![We Sell Shoes](images/shoes.gif "We Sell Shoes")
 
 But we're still not done, there's one final thing we need to do.
 
