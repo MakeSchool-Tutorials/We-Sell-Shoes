@@ -108,7 +108,7 @@ Inside of index.html, let's add the following lines of code:
     <title>We Sell Shoes</title>
 
     <!-- Link in our stylesheet -->
-    <link re="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css">
     <!-- Make sure this is inside of our <head> -->
 
   </head>
