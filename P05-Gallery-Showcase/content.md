@@ -1,6 +1,6 @@
 ---
-title: "Building the subscribe form"
-slug: building-the-subscribe-form
+title: "Building the Gallery"
+slug: building-the-gallery
 ---
 
 The gallery is one of the coolest things about this tutorial. We'll take it slow together so you can replicate this with ease in the future.
