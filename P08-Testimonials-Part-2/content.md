@@ -80,6 +80,8 @@ The way this works, is the next actions won't occur unless the testimonial paren
 
 This should cycle us through the all the testimonials on repeat.
 
+To learn more about the setInterval method, check out this resource: https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval
+
 ![Testimonial Cycle](images/cycle.gif "Testimonial Cycle")
 
 # Event Listeners
@@ -108,6 +110,8 @@ function dotClick(oldClassOne, oldClassTwo, newClass) {
 
 ```
 Because we can click any dot no matter what position we're in, we have to remove the other classes because we add the one that brings us where we need to go.
+
+We will go in depth on eventListeners and DOM Manipulation in the Make Cookies tutorial.
 
 Now we can add the others below:
 
