@@ -127,6 +127,7 @@ next.addEventListener("click", function() {
 })
 
 prev.addEventListener("click", function() {
+
   dotClick('second', 'third', 'first');
 
 })
@@ -134,7 +135,9 @@ prev.addEventListener("click", function() {
 ////////////////// end of testimonial section
 ```
 
-Nice, we now have a working and interactive testimonial section.
+we call the dotClick function we defined above, and pass in the class names we need to get rid of in the first two parameters, and the class name we want to add in the third.
+
+Nice, we now have an interactive testimonial section.
 
 ![testimonial cycle 2](images/cycle2.gif "Testimonial cycle 2")
 
