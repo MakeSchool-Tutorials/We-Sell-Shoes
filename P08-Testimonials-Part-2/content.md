@@ -36,7 +36,7 @@ const testi3 = document.querySelector('.testi3')
 const tests = document.querySelector('.tests');
 
 ```  
-These are all going to use const,because they will not change.
+These are all going to use const, because they will not change.
 
 # Interval Timers
 We want the testimonials to automatically cycle through. Let's add these lines of code below our variables.
