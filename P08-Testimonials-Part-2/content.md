@@ -89,28 +89,21 @@ By default, we show the testimonial associated with the .prev class. We want to 
 Put this code at the bottom.
 
 ```js
-
-//middle dot click
-next.addEventListener("click", function() {
-
-  //check to see what class the container has, and remove old classes
-  if (tests.classList.contains('first')) {
-    tests.classList.remove('first');
+//Create a reusable function for clicking on the dots.
+function dotClick(oldClassOne, oldClassTwo, newClass) {
+  if (tests.classList.contains(oldClassOne)) {
+    tests.classList.remove(oldClassOne);
   }
 
-  if (tests.classList.contains('third')) {
-    tests.classList.remove('third');
+  if (tests.classList.contains(oldClassTwo)) {
+    tests.classList.remove(oldClassTwo)
   }
 
-  //clear the timing interval
   window.clearInterval(nextNextInt);
   window.clearInterval(nextint);
   window.clearInterval(prevint);
-
-  //add the second class to the container to cycle it through
-  tests.classList.add('second');
-
-})
+  tests.classList.add(newClass);
+}
 
 
 ```
@@ -119,39 +112,23 @@ Because we can click any dot no matter what position we're in, we have to remove
 Now we can add the others below:
 
 ```js
-//third dot click
 nextNext.addEventListener("click", function() {
 
+  dotClick('second', 'first', 'third');
 
-  if (tests.classList.contains('second')) {
-    tests.classList.remove('second');
-  }
-
-  if (tests.classList.contains('first')) {
-    tests.classList.remove('first')
-  }
-
-  window.clearInterval(nextNextInt);
-  window.clearInterval(nextint);
-  window.clearInterval(prevint);
-  tests.classList.add('third');
 })
 
-//first dot click
+
+
+next.addEventListener("click", function() {
+
+  dotClick('first', 'third', 'second');
+
+})
+
 prev.addEventListener("click", function() {
+  dotClick('second', 'third', 'first');
 
-  if (tests.classList.contains('second')) {
-    tests.classList.remove('second');
-  }
-
-  if (tests.classList.contains('third')) {
-    tests.classList.remove('third');
-  }
-
-  window.clearInterval(nextNextInt);
-  window.clearInterval(nextint);
-  window.clearInterval(prevint);
-  tests.classList.add('first');
 })
 
 ////////////////// end of testimonial section
