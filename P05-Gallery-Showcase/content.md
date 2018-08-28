@@ -69,7 +69,14 @@ gallery
   grid-gap: 10px;
   perspective: 800px;
 }
+```
+The same way we setup flexbox by using ```display: flex```, we set up grid by doing: ```display: grid```.
 
+The grid-gap property defines the space in between each grid item.
+
+Perspective is used to create a 3D space. You'll see why in a bit. For now let's keep going:
+
+```CSS
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -83,7 +90,6 @@ gallery
 }
 
 ```
-
 The reason why we have a few different instances of the gallery class is so we can target different things with it.
 
 Currently CSS Grid isn't supported by all browsers, so we can default it to flexbox when grid isn't supported.
@@ -93,6 +99,8 @@ Currently CSS Grid isn't supported by all browsers, so we can default it to flex
 So we've given it a ```display: grid```, with a ```grid-gap: 10px```. This is so theres a little bit of space between each grid item. The perspective we've added to the grid is going to help with some 3d transformations on the grid items for a cool interactive effect.
 
 We then set the number of ```grid-template-columns``` to ```repeat(auto-fill, minmax(200px. 1fr))``` which makes the columns repeat as many times as there is space, and gives each item the ability to be as tall as we want. We do this same thing for rows, by setting it to auto-rows which creates as many rows as needed.
+
+If you want to become a master of CSS grid, I reccomend: http://cssgridgarden.com/
 
 ## Continue on
 
