@@ -74,6 +74,9 @@ The next thing we'll do is add some styles to get our images to display horizont
 
 
 ```
+Woah! What's this flex stuff? This is called Flexbox. Flexbox allows us to layout elements easily. In order to use it, we need to give our parent ```<div>``` a ```display: flex;``` property. We then specify that it should be a row, and that we want to justify our content to the beginning. 
+
+We will use a bunch of different flexbox styles throughout this tutorial.
 
 That should get our elements to display inline. Let's add a few more styles to complete the look.
 
