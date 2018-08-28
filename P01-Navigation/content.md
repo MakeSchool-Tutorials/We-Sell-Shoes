@@ -92,7 +92,12 @@ That should get our elements to display inline. Let's add a few more styles to c
 .nav-btn:hover {
   transform: scale(1.1);
 }
+```
+The transition property was given the attribute: ```all 200ms```. A CSS transition defines the unit of time it takes to transition a change in property values. The all keyword let's us attatch a transition to everything. 
 
+Let's continue:
+
+```CSS
 .nav-btn.logo {
   transition: all 300ms;
 }
@@ -141,7 +146,7 @@ If you hover over one of the images, you'll notice that some interesting things 
 }
 
 ```
-After any selector, if you add :hover, you'll be able to change the way it looks when hovered. Feel free to mess with these styles as you wish.
+After any selector, if you add :hover, you'll be able to change the way it looks when hovered. Feel free to mess with these styles as you wish. You aren't limited to the transform property.
 
 See [this for more information on CSS psuedo classes.](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 
