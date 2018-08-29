@@ -147,7 +147,7 @@ for (let i = 0; i < acc.length; i++) {
 
 ```
 
-Great. We're almost done. We still have some blanks to fill in.
+Great. We're almost done. We still have some blanks to fill in. 
 
 ```js
 //add in the active class
@@ -166,11 +166,11 @@ The panel will be the div below that contains our answer.
 //if sibling is open, close it, if closed, open it
 if (panel.style.maxHeight){
   //panel is open open
-  panel.style.maxHeight = null;
+  panel.style.maxHeight = null; //add this line
 
 } else {
   //panel is closed
-  panel.style.maxHeight = panel.scrollHeight + "px";
+  panel.style.maxHeight = panel.scrollHeight + "px"; //add this line
 }
 
 ```
