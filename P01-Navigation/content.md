@@ -46,9 +46,10 @@ At the top of our page in ```styles.css``` lets add a comment that tells us what
 NAVBAR
 ***********/
 
-.navbar {
+.nav-bar {
   z-index: 10;
   width: 100%;
+  box-shadow: 0px 0px 1px rgba(0,0,0,.3);
 }
 
 ```
