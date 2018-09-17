@@ -37,7 +37,8 @@ HERO
 .hero {
   height: calc(99vh - 50px);
   width: 100%;
-  background: linear-gradient(rgba(44, 62, 80,.3), rgba(44, 62, 80,.3)), url('https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background: linear-gradient(rgba(44, 62, 80,.6), rgba(44, 62, 80,.6)), url('https://image.ibb.co/nyaXSK/IMG_5247.jpg');
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
