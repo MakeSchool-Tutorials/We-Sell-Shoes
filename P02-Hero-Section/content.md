@@ -119,6 +119,7 @@ Now we should define a pretty call to action button.
 > [info]
 > A **Call To Action** is what you'd like the user to *do* on your site. In the case of this landing page is we want them to buy shoes, and to buy them, they need to shop for them. So our call to action button will say "Shop Now".
 
+
 > [info]
 > **Naming Conventions** - We want variable names to say what the variable is and be short. We name our class **btn-cta** because "btn" is an abbreviation for "button" and "cta" is the standard industry abbreviation for "Call To Action".
 
