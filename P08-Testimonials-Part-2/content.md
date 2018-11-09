@@ -1,3 +1,8 @@
+---
+title: "Testimonials Part 2"
+slug: testimonials-2
+---
+
 So we left off with having the styles complete, now we need to add some functionality with javascript.
 
 # Plan it out

@@ -1,6 +1,6 @@
 ---
-title: "FAQ Section"
-slug: FAQ-Section
+title: "Create The Footer"
+slug: create-the-footer
 ---
 In the last section we created an FAQ accordion. In this section we are going to create the Footer of the website!
 

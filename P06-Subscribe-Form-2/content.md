@@ -2,6 +2,7 @@
 title: "Subscribe-Form-2"
 slug: subscribe-form-2
 ---
+
 On landing pages it's important to repeat things several times, especially actions you want your users to take. This is why we will repeat the subscribe form a few more times throughout this process.
 
 # Mark it up

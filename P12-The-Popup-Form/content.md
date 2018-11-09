@@ -1,6 +1,6 @@
 ---
 title: "The Popup Form"
-slug: The-Popup-Form
+slug: the-popup-form
 ---
 Alright, this is the final section, so get excited.
 

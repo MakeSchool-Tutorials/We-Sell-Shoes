@@ -1,7 +1,8 @@
 ---
-title: "Subscribe-Form-2"
-slug: subscribe-form-2
+title: "Testimonials Part 1"
+slug: testimonials-1
 ---
+
 Testimonials are super important! In the digital age, nobody wants to purchase something unless the reviews are good.
 
 We can establish some slight rapport with our customers by adding in some testimonials.
