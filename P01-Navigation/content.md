@@ -55,7 +55,11 @@ NAVBAR
 ```
 We give our parent navbar class a higher z-index and a width of 100% so it goes across the page.
 
-The next thing we'll do is add some styles to get our images to display horizontally.
+The next thing we'll use [CSS3 Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) to make our `nav-links` display horizontally.
+
+Flexbox allows us to layout elements easily. In order to use it, we need to give our parent ```<div>``` a ```display: flex;``` property. We then specify that it should be a row, and that we want to justify our content to the beginning.
+
+We will use a bunch of different flexbox styles throughout this tutorial.
 
 ```css
 .navbar {
@@ -64,22 +68,17 @@ The next thing we'll do is add some styles to get our images to display horizont
 }
 
 .nav-links {
-  height: 50px;
-  width: 100%;
-  background: white;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  height: 50px;
+  width: 100%;
+  background: white;
 }
-
-
 ```
-Woah! What's this flex stuff? This is called Flexbox. Flexbox allows us to layout elements easily. In order to use it, we need to give our parent ```<div>``` a ```display: flex;``` property. We then specify that it should be a row, and that we want to justify our content to the beginning. 
 
-We will use a bunch of different flexbox styles throughout this tutorial.
-
-That should get our elements to display inline. Let's add a few more styles to complete the look.
+That should get our elements to display horizontally. Let's add a few more styles to remove the `text-decoration` and `list-style-type` (those bullet points), and then on hover, let's add a little animation using the CSS attribute `transform`.
 
 ```CSS
 .nav-btn {
@@ -94,7 +93,8 @@ That should get our elements to display inline. Let's add a few more styles to c
   transform: scale(1.1);
 }
 ```
-The transition property was given the attribute: ```all 200ms```. A CSS transition defines the unit of time it takes to transition a change in property values. The all keyword let's us attatch a transition to everything. 
+
+The transition property was given the attribute: ```all 200ms```. A CSS transition defines the unit of time it takes to transition a change in property values. The all keyword let's us attatch a transition to everything.
 
 Let's continue:
 
@@ -154,4 +154,4 @@ See [this for more information on CSS psuedo classes.](https://developer.mozilla
 We will revisit the navbar in the future.
 
 # Going forward
-Now that we've finished our navbar, it's time to add in our Hero Section! 
+Now that we've finished our navbar, it's time to add in our Hero Section!

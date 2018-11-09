@@ -1,0 +1,6 @@
+- P00-Making A Plan
+  - Add Learning Objectives
+  - Add what you need to know before you start
+- P01-Navigation
+  - Need to break down more the CSS and say what each style does
+  - 

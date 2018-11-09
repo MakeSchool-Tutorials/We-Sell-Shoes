@@ -47,7 +47,7 @@ cd we-sell-shoes
 
 # Create your first file
 
-Next, you'll need to create a new file called ```index.html```. This is where our game will live.
+Next, you'll need to create a new file called ```index.html```. This is where the page will live.
 
 You can do this by executing the following commands in your terminal:
 ```
@@ -73,7 +73,7 @@ Inside of index.html, please write the following:
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Make Cookies</title>
+    <title>We Sell Shoes</title>
   </head>
   <body>
 
@@ -94,7 +94,7 @@ touch index.js && touch styles.css
 
 Adding ```&&``` after any command in the terminal lets you run as many commands as you want in order.
 
-Now that we've got our seperate files, we will need to import them into our HTML.
+Now that we've got our separate files, we will need to import them into our HTML.
 
 # Importing Our Files!
 
@@ -131,4 +131,4 @@ We put our stylesheets in the head because we want the browser to load our style
 
 We now have a basic template ready to be used.
 
-And just like that we're all set and ready for some super cookie sales!
+And just like that we're all set and ready for some shoe customers!
