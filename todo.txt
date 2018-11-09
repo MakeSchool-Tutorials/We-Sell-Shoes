@@ -1,6 +1,13 @@
+For such a visual tutorial, it would be better to lead chapters with an image of what we are going to build.
+Add more ticks `` to reference actual code words, and bolding for jargon
+
 - P00-Making A Plan
   - Add Learning Objectives
   - Add what you need to know before you start
 - P01-Navigation
   - Need to break down more the CSS and say what each style does
-  - 
+  -
+
+
+
+Careful with unescaped <html tags> => `<html tags>`

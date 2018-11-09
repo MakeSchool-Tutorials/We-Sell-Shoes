@@ -8,7 +8,7 @@ One of the most important parts of a website is their navigation menu. Typically
 For this project we will put our navigation on the top of the page.
 
 # Navbar Mark-up
-To begin, let's add the following HTML inside of our ```<body>```:
+To begin, let's add the following HTML inside of our `<body>`:
 
 ```HTML
 <body>
@@ -26,7 +26,7 @@ To begin, let's add the following HTML inside of our ```<body>```:
 </body>
 ```
 
-The first thing we did was wrap our elements inside of a parent div called ```nav-bar```. Inside of this ```div``` we added in our ```<nav>``` tag. Next we added another parent div to store our links into.
+The first thing we did was wrap our elements inside of a parent div called `nav-bar`. Inside of this `div` we added in our `<nav>` tag. Next we added another parent div to store our links into.
 
 We decided to use a logo for the Home button, and we also added in a shopping cart.
 
@@ -39,7 +39,7 @@ In order to get it to look like a navbar, we will need to give it some CSS. We w
 
 # Styleing the Navbar
 
-At the top of our page in ```styles.css``` lets add a comment that tells us what section we're in, and a few styles:
+At the top of our page in `styles.css` lets add a comment that tells us what section we're in, and a few styles:
 
 ```CSS
 /***********
@@ -57,7 +57,7 @@ We give our parent navbar class a higher z-index and a width of 100% so it goes 
 
 The next thing we'll use [CSS3 Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) to make our `nav-links` display horizontally.
 
-Flexbox allows us to layout elements easily. In order to use it, we need to give our parent ```<div>``` a ```display: flex;``` property. We then specify that it should be a row, and that we want to justify our content to the beginning.
+Flexbox allows us to layout elements easily. In order to use it, we need to give our parent `<div>` a `display: flex;` property. We then specify that it should be a row, and that we want to justify our content to the beginning.
 
 We will use a bunch of different flexbox styles throughout this tutorial.
 
@@ -94,7 +94,7 @@ That should get our elements to display horizontally. Let's add a few more style
 }
 ```
 
-The transition property was given the attribute: ```all 200ms```. A CSS transition defines the unit of time it takes to transition a change in property values. The all keyword let's us attatch a transition to everything.
+The transition property was given the attribute: `all 200ms`. A CSS transition defines the unit of time it takes to transition a change in property values. The all keyword let's us attach a transition to everything.
 
 Let's continue:
 
@@ -122,7 +122,7 @@ Your page should now look something like this:
 
 ![navbar with some styles](images/nav-s.png "navbar with some styles")
 
-You'll notice that it isn't quite flush with the borders of the browser yet. This is because the <body> tag actually adds a little bit of margin. We can get rid of that with the following styles:
+You'll notice that it isn't quite flush with the borders of the browser yet. This is because the `<body>` tag actually adds a little bit of margin. We can get rid of that with the following styles:
 
 ```CSS
 
