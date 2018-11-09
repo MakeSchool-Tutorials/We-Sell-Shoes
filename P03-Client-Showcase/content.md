@@ -1,5 +1,5 @@
 ---
-title: "Showcasing our clients!"
+title: "Client Showcase"
 slug: showcasing-our-clients
 ---
 

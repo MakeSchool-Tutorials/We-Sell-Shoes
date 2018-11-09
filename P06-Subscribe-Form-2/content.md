@@ -1,5 +1,5 @@
 ---
-title: "Subscribe-Form-2"
+title: "Subscribe Form 2"
 slug: subscribe-form-2
 ---
 
