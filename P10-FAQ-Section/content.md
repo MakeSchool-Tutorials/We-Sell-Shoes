@@ -17,17 +17,17 @@ Put this code below the third subscribe form:
   <h2>Frequently Asked Questions</h2>
   <div class="faq-container">
       <button class="accordion">How do I tie my shoes?</button>
-      <div class="faqpanel">
+      <div class="faq-panel">
         <p>Lace them together.</p>
       </div>
 
     <button class="accordion">I lost one of my shoes, can I purchase just one?</button>
-    <div class="faqpanel">
+    <div class="faq-panel">
       <p>No.</p>
     </div>
 
     <button class="accordion">You don't carry the shoes in my size.</button>
-    <div class="faqpanel">
+    <div class="faq-panel">
       <p>Tough luck</p>
     </div>
   </div>
@@ -44,7 +44,7 @@ Make sure this is at the bottom of your stylesheet.
 
 ```CSS
 /**********
-faqpanel
+faq-panel
 ************/
 
 
@@ -85,7 +85,7 @@ faqpanel
 }
 
 /* Style the accordion panel. Note: hidden by default */
-.faqpanel {
+.faq-panel {
     padding: 0 18px;
     background-color: white;
     max-height: 0;
@@ -147,7 +147,7 @@ for (let i = 0; i < acc.length; i++) {
 
 ```
 
-Great. We're almost done. We still have some blanks to fill in. 
+Great. We're almost done. We still have some blanks to fill in.
 
 ```js
 //add in the active class

@@ -13,21 +13,21 @@ Let's do some mark-up shall we?
 
 ```html
 <div class="testimonials">
-  <h1 class="testi-title">Testimonials</h1>
+  <h1 class="testimonial-title">Testimonials</h1>
     <div class="tests first">
-    <div class="testimonial testi-1">
-      <img src="http://infasme.com/wp-content/uploads/2017/05/Faces-400x400px-1_1_07-scalia-testimonial.jpg" class="testi-image" />
-      <div class="testi-quote">This product was amazing.<p> - John Setzen</p></div>
+    <div class="testimonial testimonial-1">
+      <img src="http://infasme.com/wp-content/uploads/2017/05/Faces-400x400px-1_1_07-scalia-testimonial.jpg" class="testimonial-image" />
+      <div class="testimonial-quote">This product was amazing.<p> - John Setzen</p></div>
     </div>
 
-    <div class="testimonial testi-2">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjvtBy5YBKiYcLTPgiQXdPNUK0c4cma-EoXPPuay1ba4-7kJLj" class="testi-image" />
-      <div class="testi-quote">This product was great. <p>- John Setzen's Twin Brother</p></div>
+    <div class="testimonial testimonial-2">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjvtBy5YBKiYcLTPgiQXdPNUK0c4cma-EoXPPuay1ba4-7kJLj" class="testimonial-image" />
+      <div class="testimonial-quote">This product was great. <p>- John Setzen's Twin Brother</p></div>
     </div>
 
-    <div class="testimonial testi-3">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbJAJEmKnMZWlu3aXB-5J9kqlppVCOH-xlFYQKuNWQY1BwpMsD" class="testi-image" />
-      <div class="testi-quote">This product was pretty good. <p>- Professional John Setzen Look Alike</p></div>
+    <div class="testimonial testimonial-3">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbJAJEmKnMZWlu3aXB-5J9kqlppVCOH-xlFYQKuNWQY1BwpMsD" class="testimonial-image" />
+      <div class="testimonial-quote">This product was pretty good. <p>- Professional John Setzen Look Alike</p></div>
     </div>
   </div>
 
@@ -58,7 +58,7 @@ testimonials
   background: #ecf0f1;
 }
 
-.testi-title {
+.testimonial-title {
   padding-top: 1rem;
   text-align: center;
 }
@@ -107,21 +107,21 @@ testimonials
 }
 
 
-.testi-image {
+.testimonial-image {
   border: solid 8px white;
   border-radius: 50%;
   height: 272px;
   width: 272px;
 }
 
-.testi-quote {
+.testimonial-quote {
   margin-top: 1rem;
   border: solid 15px white;
   border-radius: 2px;
   background: white;
 }
 
-.testi-quote p {
+.testimonial-quote p {
   text-align: center;
   margin-bottom: 0;
 }

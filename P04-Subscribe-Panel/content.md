@@ -5,9 +5,9 @@ slug: building-the-subscribe-form
 
 One of the most important aspects of modern landing pages is directing users to sign up for newsletters.
 
-We are going to create an input field with a subscribe button, and wrap it over a nice parallaxed background.
+We are going to create an input field with a subscribe button, and wrap it over a nice **parallax effect** background.
 
-# Adding in the markup
+# Adding in the Markup
 
 Let's start again by adding in some HTML:
 
@@ -16,21 +16,22 @@ Let's start again by adding in some HTML:
 
 <div class="subscribe">
   <h1>Get unique designs in your inbox</h1>
-  <h3>Recieve our monthly newsletter with special offers</h3>
+  <h3>Receive our monthly newsletter with special offers</h3>
   <div class="sub-fields">
     <form>
-      <input type="email" class="email-input" placeholder="Your e-mail"><button class="email-sub">Subscribe</button>
+      <input type="email" class="form-control" placeholder="Your e-mail"><button class="btn-subscribe">Subscribe</button>
     </form>
   </div>
 </div>
 ```
+
 As always, feel free to change some of the text as you wish.
 
-We want our subscribe Div to take up a sufficient amount of space, and add a background image to it. Our sub-fields will have some styles that will get our input and button tags aligned in a row.
+We want our subscribe `div` to take up a sufficient amount of space, and add a background image to it. Our sub-fields will have some styles that will get our input and button tags aligned in a row.
 
 With our new style plan, we can begin to add some CSS.
 
-# Adding styles
+# Adding Styles and a Background Image
 
  At the bottom of our stylesheet lets add these lines of CSS:
 
@@ -54,7 +55,7 @@ With our new style plan, we can begin to add some CSS.
  }
 
  ```
- Take note of ```background-attachment: fixed;```. This is what adds the paralax effect onto our image.
+ Take note of ```background-attachment: fixed;```. This is what adds the parallax effect onto our image.
 
  The next bit we can add is add the headings:
 
@@ -74,12 +75,15 @@ With our new style plan, we can begin to add some CSS.
    font-weight: 200;
  }
  ```
+
 We give the larger header a higher font-weight so that we can tell it's a title, and that the h3 is a subtitle.
 
-Now we can add some styles for the buttons:
+Now we can add some styles for the input and buttons:
+
+First we'll take a page from Bootstrap and make a **Utility Class** that we can add to any form input to style it called `form-control`.
 
 ```CSS
-.email-input {
+.form-control {
   border-radius: 4px;
   border: solid 1px gray;
   font-size: 2rem;
@@ -87,8 +91,12 @@ Now we can add some styles for the buttons:
   padding-left: 1rem;
   transition: all 200ms;
 }
+```
 
-.email-sub {
+Now we have to make the button look good:
+
+```CSS
+.btn-subscribe {
   margin-left: 1rem;
   font-size: 2rem;
   padding-top: .3rem;
@@ -108,11 +116,11 @@ Now we can add some styles for the buttons:
 We added a transition effect to both of these so that we can style some animations on hover. Lets do that now:
 
 ```CSS
-.email-input:hover {
+.form-control:hover {
   transform: scale(1.05);
 }
 
-.email-sub:hover {
+.btn-subscribe:hover {
   transform: scale(1.05);
 }
 ```

@@ -1,6 +1,7 @@
 For such a visual tutorial, it would be better to lead chapters with an image of what we are going to build.
 Add more ticks `` to reference actual code words, and bolding for jargon
-Add more [info], [action], [challenge], [solution] blockquotes 
+Add more [info], [action], [challenge], [solution] blockquotes
+This basically adds all the HTML then all the CSS each chapter. Students will not learn much I think unless it is broken out peice by peice more.
 
 - P00-Making A Plan
   - Add Learning Objectives
@@ -8,7 +9,5 @@ Add more [info], [action], [challenge], [solution] blockquotes
 - P01-Navigation
   - Need to break down more the CSS and say what each style does
   -
-
-
 
 Careful with unescaped <html tags> => `<html tags>`

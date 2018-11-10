@@ -15,7 +15,7 @@ Underneath our testimonials, lets add the following:
   <h3>- Genghis Khan, Famous Barbarian</h3>
   <div class="sub-fields">
     <form>
-      <input type="email" class="email-input" placeholder="Your e-mail"><button class="email-sub">Subscribe</button>
+      <input type="email" class="form-control" placeholder="Your e-mail"><button class="btn-subscribe">Subscribe</button>
     </form>
   </div>
 </div>

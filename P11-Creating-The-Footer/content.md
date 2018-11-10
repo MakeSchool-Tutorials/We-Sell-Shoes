@@ -38,9 +38,9 @@ Below our FAQ Section, let's add in our Footer Markup:
 </div>
 
 ```
-Our footer is built in two section, the top part and the bottom part. The top part contains information and some relevent links, and the bottom shows the copy right info.
+Our footer is built in two section, the top part and the bottom part. The top part contains information and some relevant links, and the bottom shows the copy right info.
 
-Now that we've got in our footer ```html``` lets go ahead and add some styles.
+Now that we've got in our footer `html` lets go ahead and add some styles.
 
 # Styling That Footer
 

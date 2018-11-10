@@ -15,7 +15,7 @@ Underneath our gallery, lets add the following:
   <h3>- Turd Ferguson, Shoe Fanatic</h3>
   <div class="sub-fields">
     <form>
-      <input type="email" class="email-input" placeholder="Your e-mail"><button class="email-sub">Subscribe</button>
+      <input type="email" class="form-control" placeholder="Your e-mail"><button class="btn-email">Subscribe</button>
     </form>
   </div>
 </div>

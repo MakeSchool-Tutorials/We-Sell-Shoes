@@ -33,9 +33,9 @@ const next = document.getElementById('next');
 const prev = document.getElementById('prev');
 
 //individual testimonials
-const testi1 = document.querySelector('.testi1');
-const testi2 = document.querySelector('.testi2');
-const testi3 = document.querySelector('.testi3')
+const testimonial1 = document.querySelector('.testimonial1');
+const testimonial2 = document.querySelector('.testimonial2');
+const testimonial3 = document.querySelector('.testimonial3')
 
 //testimonial parent container
 const tests = document.querySelector('.tests');

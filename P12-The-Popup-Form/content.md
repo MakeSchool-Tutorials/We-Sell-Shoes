@@ -67,7 +67,7 @@ At the top of our index.html file, right after the opening <body> tag, let's add
       <h1 class="pop-up-title">Get Rewards!</h1>
       <h2 class="pop-up-sub">Subscribe for 15% off at checkout!</h2>
       <div class="sub-fields">
-        <input class="email-input" placeholder="Your e-mail"><button class="email-sub">Subscribe</button>
+        <input class="form-control" placeholder="Your e-mail"><button class="btn-subscribe">Subscribe</button>
       </div>
       <button id="close-pop-up" class="close-btn">X</button>
     </div>

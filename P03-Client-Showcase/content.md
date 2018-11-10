@@ -9,7 +9,7 @@ We are going to do the same on our landing page.
 
 # Client markup
 
-Let's start again by adding in some markup.
+Let's start again by adding in some markup of the images of our clients. I just grabbed some stock images from the internet as placeholders.
 
 ```HTML
 </div><!--closing hero div-->
@@ -25,13 +25,14 @@ Let's start again by adding in some markup.
   </div>
 </div>
 ```
+
 Feel welcome to change the images as needed!
 
-We've created a parent div with the clients class, we have some text to show what this section is for, and we have a child div that contains some images of corporate logos.
+We've created a parent `div` with the `clients` class, we have some text to show what this section is for, and we have a child `div` that contains some images of corporate logos.
 
-We can now add some styles to these.
+Refresh to see what this looks like with just raw HTML, and then we can add some styles.
 
-# Adding styles
+# Adding Styles
 
 At the bottom of our stylesheet lets add in the following:
 
@@ -82,11 +83,12 @@ This will lay our images out rather nicely. The next thing we can do is fix the 
 }
 
 ```
-Setting the margin to 0 gets rid of the extra white space above. Feel free to play with the font size as well.
 
-We give it a font weight of 400 to make it slightly bolded.
+Setting the margin to 0 gets rid of the extra white space above. Feel free to play with the font size if you want.
 
-# Make the images slghtly interactive
+We give it a `font-weight` of `400` to bold the font slightly.
+
+# Make the images slightly interactive
 
 In order to make our images a little more lively, we can add some transitions and hover effects.
 

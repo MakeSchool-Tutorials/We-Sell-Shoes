@@ -42,7 +42,7 @@ HERO
 }
 ```
 
-The height has a `calc` property, taking in 99vh - 50px. This just means, we want it to be 99% of the view height, minus 50 pixels. We do this because we want to show a little bit of the next part so that people will know they should scroll downward.
+The `height` property is using a speciall CSS3 reserved word: `calc`. Calc allows you to do a **Calculation** inside your CSS. It's... awesome. In this case we are taking a value of `99vh - 50px`. This means, we want the styled element to take up 99% of the view height (`99vh`), minus 50 pixels (`- 50px`). We do this because we want to show a little bit of the next part so that people will know they should scroll downward.
 
 We also make use of `linear-gradients` to darken the photo a bit. This is so when we add text it will stand out a little better.
 
@@ -118,7 +118,7 @@ Now we should define a pretty call to action button.
 
 > [info]
 > A **Call To Action** is what you'd like the user to *do* on your site. In the case of this landing page is we want them to buy shoes, and to buy them, they need to shop for them. So our call to action button will say "Shop Now".
-> 
+>
 > **Class Naming Conventions** - We want variable names to say what the variable is and be short. We name our class **btn-cta** because "btn" is an abbreviation for "button" and "cta" is the standard industry abbreviation for "Call To Action".
 
 ```css
